@@ -5,6 +5,6 @@
 int main() {
     std::cout << add(1, 2) << std::endl;
     Calc calculator(0.1);
-    std::cout << calculator(1, 2) << std::endl;
-
+    std::cout << calculator.subtract(1, 2) << std::endl;
+    return 0;
 }

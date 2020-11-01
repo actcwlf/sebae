@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.12)
-project({project_name} VERSION 0.1)
+project({project_name})
 
 add_executable(debug src/main.cc)
 target_include_directories(debug PUBLIC include)

@@ -5,11 +5,11 @@ double add(double a, double b)
 
 class Calc {
 private:
-    double version;
+  double version;
 public:
-    Calc(double version): version(version) {}
-    double subtract(double a, double b) {
-        return a - b;
-    }
+  Calc(double version) : version(version) {}
+  double subtract(double a, double b) {
+    return a - b;
+  }
 
-}
+};
